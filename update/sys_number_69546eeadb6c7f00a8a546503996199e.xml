@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_snc_tjx_estore_alarm_notification_list">x_snc_tjx_estore_alarm_notification_list</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>ALAL</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2019-04-04 17:41:30</sys_created_on>
+        <sys_id>69546eeadb6c7f00a8a546503996199e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ALAL</sys_name>
+        <sys_package display_value="TJX eStore" source="x_snc_tjx_estore">8368a4f7db14fb00a8a5465039961910</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TJX eStore">8368a4f7db14fb00a8a5465039961910</sys_scope>
+        <sys_update_name>sys_number_69546eeadb6c7f00a8a546503996199e</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2019-04-04 17:46:11</sys_updated_on>
+    </sys_number>
+</record_update>

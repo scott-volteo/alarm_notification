@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_snc_tjx_estore_alarm_notification" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="alarm_notification - Default view" name="x_snc_tjx_estore_alarm_notification" related_list="NULL" sys_domain="global" view="Default view">074e1ea2db6c7f00a8a54650399619fb</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:e99c5222db6c7f00a8a54650399619c0</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2019-04-04 17:15:07</sys_created_on>
+            <sys_id>c34e1ea2db6c7f00a8a54650399619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2019-04-04 17:15:07</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>alarm_notification - Default view</calculated_name>
+            <filter/>
+            <name>x_snc_tjx_estore_alarm_notification</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2019-04-04 17:15:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>074e1ea2db6c7f00a8a54650399619fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>alarm_notification - Default view</sys_name>
+            <sys_package display_value="TJX eStore" source="x_snc_tjx_estore">8368a4f7db14fb00a8a5465039961910</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TJX eStore">8368a4f7db14fb00a8a5465039961910</sys_scope>
+            <sys_update_name>sys_ui_related_x_snc_tjx_estore_alarm_notification_null</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2019-04-04 17:15:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

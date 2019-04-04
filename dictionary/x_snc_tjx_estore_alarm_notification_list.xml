@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Alarm Notification List" max_length="40" name="x_snc_tjx_estore_alarm_notification_list" type="collection">
+        <element label="Alarm Notification" max_length="32" name="alarm_notification" reference="x_snc_tjx_estore_alarm_notification" type="reference"/>
+        <element label="Key Holder" max_length="40" name="key_holder" type="boolean"/>
+        <element label="Management Name" max_length="32" name="management_name" reference="sys_user" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Personal Identification code" max_length="40" name="personal_identification_code" type="string"/>
+        <index name="index">
+            <element name="management_name"/>
+        </index>
+        <index name="index2">
+            <element name="alarm_notification"/>
+        </index>
+    </element>
+</database>

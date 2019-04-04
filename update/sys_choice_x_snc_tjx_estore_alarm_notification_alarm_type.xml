@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="alarm_type" table="x_snc_tjx_estore_alarm_notification" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>alarm_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADT</label>
+            <language>en</language>
+            <name>x_snc_tjx_estore_alarm_notification</name>
+            <sequence/>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2019-04-04 14:52:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ab8db562dba87f00a8a5465039961993</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2019-04-04 14:52:42</sys_updated_on>
+            <value>adt</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>alarm_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Checkpoint</label>
+            <language>en</language>
+            <name>x_snc_tjx_estore_alarm_notification</name>
+            <sequence/>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2019-04-04 14:53:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>778d7962dba87f00a8a54650399619a6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2019-04-04 14:53:10</sys_updated_on>
+            <value>checkpoint</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>alarm_type</element>
+            <name>x_snc_tjx_estore_alarm_notification</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2019-04-04 14:52:03</sys_created_on>
+            <sys_id>2f8d7962dba87f00a8a54650399619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>alarm_type</sys_name>
+            <sys_package display_value="TJX eStore" source="x_snc_tjx_estore">8368a4f7db14fb00a8a5465039961910</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TJX eStore">8368a4f7db14fb00a8a5465039961910</sys_scope>
+            <sys_update_name>sys_choice_x_snc_tjx_estore_alarm_notification_alarm_type</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2019-04-04 14:52:03</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

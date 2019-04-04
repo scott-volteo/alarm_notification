@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="alarm_notification" max_length="40" name="x_snc_tjx_estore_alarm_notification" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element choice="3" default="adt" label="Alarm Type" max_length="40" name="alarm_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ADT" value="adt"/>
+                <element inactive_on_update="false" label="Checkpoint" value="checkpoint"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Store Name" mandatory="true" max_length="32" name="store_name" reference="cmn_department" type="reference"/>
+        <index name="index">
+            <element name="store_name"/>
+        </index>
+    </element>
+</database>
